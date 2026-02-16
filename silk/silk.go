@@ -20,7 +20,7 @@ import (
 	"github.com/hoshinonyaruko/gensokyo/mylog"
 )
 
-//go:embed exec/*
+//go:embed exec/* 
 var silkCodecs embed.FS
 
 const (
