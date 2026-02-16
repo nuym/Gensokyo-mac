@@ -32,7 +32,12 @@ jobs:
             goarch: 386
           - os: android
             goarch: arm64
-          # ... Add other combinations as needed
+          - os: macos-latest
+            goos: darwin
+            goarch: amd64
+          - os: macos-latest
+            goos: darwin
+            goarch: arm64
 
     steps:
     - name: Checkout code
